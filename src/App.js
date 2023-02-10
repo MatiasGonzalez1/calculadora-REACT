@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import Logo from './assets/img/unnamed.png'
+import Boton from './components/Boton';
 
 function App() {
   return (
@@ -10,7 +11,13 @@ function App() {
         className='freecodecamp-logo'
         alt='Logo de freecodecamp' />
       </div>
-      <div className='contenedor-calculadora'></div>
+      <div className='contenedor-calculadora'>
+        <div className='fila'><Boton>*</Boton></div>
+        <div className='fila'></div>
+        <div className='fila'></div>
+        <div className='fila'></div>
+        <div className='fila'></div>
+      </div>
     </div>
   );
 }
