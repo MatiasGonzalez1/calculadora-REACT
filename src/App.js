@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
-import Logo from './assets/img/unnamed.png'
+import Logo from './assets/img/unnamed.png';
 import Boton from './components/Boton';
 import Pantalla from './components/Pantalla';
 import BotonClear from './components/BotonClear';
@@ -16,7 +16,7 @@ function App() {
 
   const calcularResultado = ()=>{
     input ? setInput(evaluate(input)) : alert('Debes ingresar valores para realizar los calculos');
-  }
+  };
 
   return (
     <div className="App">
@@ -57,6 +57,6 @@ function App() {
       </div>
     </div>
   );
-}
+};
 
 export default App;
