@@ -15,7 +15,7 @@ function App() {
   };
 
   const calcularResultado = ()=>{
-    setInput(evaluate(input));
+    input ? setInput(evaluate(input)) : alert('Debes ingresar valores para realizar los calculos');
   }
 
   return (
