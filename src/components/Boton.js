@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Boton.css'
+import '../styles/Boton.css';
 
 const Boton = (props)=>{
 
